@@ -70,17 +70,18 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid red;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #222;
+  color: white;
   padding: 10px;
   border-radius: 5px;
+  border: 3px solid red;
   display: table;
   margin: 10px auto;
 } 
@@ -117,6 +118,24 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
+  background: red;
+}
+
+ul.experience {
+  padding: 0;
+  text-align: center;
+}
+
+.experience li {
+  border-radius: 6px;
+  
+  background: black;
+  color: white;
+  padding: 5px 5px;
+  margin: 2px;
+}
+
+.experience li:nth-child(odd) {
   background: red;
 }
 
@@ -160,6 +179,9 @@ a.linkedin {
 a.github {
   background-image: url(images/github.svg);
 }
+a.instagram {
+  background-image: url(images/instagram.svg);
+}
 a.social:hover {
   opacity: 1;
 }
@@ -197,6 +219,10 @@ a.social:hover {
     line-height: 1.6em;
   }
 
+  .licenses {
+    font-size: 1.3em;
+
+  }
   footer {
     font-size: 1.3em;
     max-width: 1200px;
