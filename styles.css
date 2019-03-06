@@ -121,23 +121,6 @@ ul.skills {
   background: red;
 }
 
-ul.experience {
-  padding: 0;
-  text-align: center;
-}
-
-.experience li {
-  border-radius: 6px;
-  
-  background: black;
-  color: white;
-  padding: 5px 5px;
-  margin: 2px;
-}
-
-.experience li:nth-child(odd) {
-  background: red;
-}
 
 footer {
   width: 100%;
@@ -178,9 +161,6 @@ a.linkedin {
 }
 a.github {
   background-image: url(images/github.svg);
-}
-a.instagram {
-  background-image: url(images/instagram.svg);
 }
 a.social:hover {
   opacity: 1;
